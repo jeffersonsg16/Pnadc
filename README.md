@@ -15,7 +15,6 @@ Este script serve como um ponto de partida para a criação de novas branches no
 - **Recortes Temporais:** Analisar dados em diferentes períodos.
 - **Outros Recortes:** Explorar diferentes dimensões e categorias de dados.
 
-Sinta-se à vontade para modificar e expandir este script de acordo com os requisitos da sua análise.
 
 ## Dependências
 - **R versão 3.6 ou superior**
