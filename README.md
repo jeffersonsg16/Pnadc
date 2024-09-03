@@ -1,5 +1,5 @@
 ## Visão Geral
-Este script foi desenvolvido para facilitar a instalação e o carregamento dos pacotes necessários em R, com foco específico no tratamento dos dados da PNADc (Pesquisa Nacional por Amostra de Domicílios Contínua) do IBGE. Ele serve como uma base para criar novas branches para análises distintas, seja por recortes setoriais, temporais, ou outros.
+Este script foi desenvolvido com foco específico no tratamento dos dados da PNADc (Pesquisa Nacional por Amostra de Domicílios Contínua) do IBGE. Ele serve como uma base para criar novas branches para análises distintas, seja por recortes setoriais, temporais, ou outros.
 
 ## Funcionalidade
 1. **Função `check.packages`:** Esta função verifica se os pacotes listados estão instalados. Se algum pacote não estiver instalado, ele será automaticamente instalado e carregado. No exemplo, o pacote `PNADcIBGE` é o principal, pois permite a extração e manipulação dos dados da PNADc.
