@@ -6,12 +6,19 @@ check.packages <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 
-pacotes <-c("")
+
+#Incluir demais pacotes a serem utilizados
+
+pacotes <-c("PNADcIBGE")
+
+
 check.packages(pacotes)
 
-# Defina o seu projeto no Google Cloud
-set_billing_id("ferrous-octane-207119")
 
-# Para carregar o dado direto no R
+#Incluir variáveis de interesse
 
-db <-  read_sql("SELECT V1008 FROM `basedosdados.br_ibge_pnadc.microdados`")
+vars <- c("")
+
+
+dados <- get_pnadc(year = i, quarter = trimestre, design = FALSE, labels = TRUE, deflator = TRUE, vars = vars)
+  
